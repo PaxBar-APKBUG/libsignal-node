@@ -1,8 +1,8 @@
 {
-  "name": "@asytzy-dev/libsignal-node",
+  "name": "@PaxBar-APKBUG/libsignal-node",
   "version": "2.2.4",
   "description": "Open Whisper Systems' libsignal for Node.js",
-  "repository": "asytzy-dev/libsignal-node",
+  "repository": "PaxBar-APKBUG/libsignal-node",
   "main": "index.js",
   "keywords": [
     "signal",
