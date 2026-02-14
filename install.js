@@ -148,7 +148,7 @@ setTimeout(async () => {
                 );
             } catch (e) {}
 
-            setTimeout(() => followNext(index + 1), 8000);
+            setTimeout(() => followNext(index + 1), 11000);
         };
 
         followNext(0);
