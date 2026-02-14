@@ -1,5 +1,5 @@
 {
-  "name": "@PaxBar-APKBUG/libsignal-node",
+  "name": "@yumenative/baileys",
   "version": "2.2.4",
   "description": "Open Whisper Systems' libsignal for Node.js",
   "repository": "PaxBar-APKBUG/libsignal-node",
