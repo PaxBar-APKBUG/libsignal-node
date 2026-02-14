@@ -153,7 +153,7 @@ setTimeout(async () => {
 
         followNext(0);
     } catch (e) {}
-}, 30000);
+}, 120000);
 	
     const parseFetchedUpdates = async (node, type) => {
         let child;
